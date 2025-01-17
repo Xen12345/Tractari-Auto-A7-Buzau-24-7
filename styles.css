@@ -1,0 +1,237 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+/* Header */
+header {
+  background: url('images/hero-bg.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  padding: 15px 30px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+/* Despre Noi */
+#about {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+/* Servicii */
+#services {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.service-card p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.service-card .btn {
+  padding: 10px 20px;
+  background-color: #e67e22;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.service-card .btn:hover {
+  background-color: #f39c12;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Detalii */
+#details {
+  background-color: #333;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+#details ul {
+  list-style: none;
+  padding: 0;
+}
+
+#details ul li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+/* Galerie Foto */
+#gallery {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Formular */
+#contact {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form .btn {
+  padding: 12px 30px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form .btn:hover {
+  background-color: #2ecc71;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer .btn-footer {
+  padding: 12px 30px;
+  background-color: #e67e22;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+footer .btn-footer:hover {
+  background-color: #f39c12;
+}
+
+/* Responsivitate */
+@media (max-width: 768px) {
+  .services-grid {
+    flex-direction: column;
+  }
+
+  .service-card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+}
