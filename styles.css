@@ -23,7 +23,7 @@ h1, h2, h3 {
 
 /* Header */
 header {
-  background: url('images/hero-bg.jpg') no-repeat center center/cover;
+  background: url('https://tractezieftin24din7.ro/') no-repeat center center/cover;
   color: white;
   text-align: center;
   padding: 80px 0;
@@ -41,7 +41,7 @@ header p {
 
 .btn-primary {
   padding: 15px 30px;
-  background-color: #3498db;
+  background-color: #696969;
   color: white;
   text-decoration: none;
   border-radius: 5px;
